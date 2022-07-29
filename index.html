@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Brow Bar</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+  </head>
+  <body>
+      <div id="webgl-content" class="unity-desktop">
+        <div id="canvas-wrap" style="width:960px;height:600px;">
+          <div id="rpm-container"  >
+            <iframe id="rpm-frame" class="rpm-frame" allow="camera *; microphone *"></iframe>
+            <button id="rpm-hide-button" onclick="hideRpm()">Hide</button>
+          </div>
+          <div id="unity-container"></div>
+          
+        </div>
+        <div class="footer">
+          <div class="webgl-logo"></div>
+          <div class="fullscreen" onclick="showFullscreen()"></div>
+        <div class="title">Brow Bar</div>
+      </div>
+      </div>
+      <script src="TemplateData/Global.js"></script>
+      <script src="TemplateData/UnitySetup.js"></script>
+      <script src="TemplateData/ReadyPlayerMeFrame.js"></script>
+      <script>setupUnity("Build/UnityLoader.js","Build/Test 5 Instagram.json")</script>
+  </body>
+</html>

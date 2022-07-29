@@ -1,0 +1,16 @@
+{
+"companyName": "Veeruby",
+"productName": "Brow Bar",
+"productVersion": "0.1",
+"dataUrl": "Test 6 Instagram New tab.data.unityweb",
+"wasmCodeUrl": "Test 6 Instagram New tab.wasm.code.unityweb",
+"wasmFrameworkUrl": "Test 6 Instagram New tab.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.3.0f6"
+}
